@@ -9,5 +9,6 @@ def line(katz_deli)
       str << "#{katz_deli[i]}, "
       i += 1
     end
+    puts str
   end
 end
