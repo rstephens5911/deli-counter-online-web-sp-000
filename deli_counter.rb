@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(array)
-  if katz_deli > 0
+  if katz_deli.size > 0
     katz_deli.each_with_index do |line, index|
       puts "The line is currently: #{index + 1}, #{line}"
     end
