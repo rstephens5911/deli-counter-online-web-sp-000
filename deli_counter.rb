@@ -1,7 +1,7 @@
 def line(array)
   katz_deli = []
   if katz_deli.size > 0
-    katz_deli.each_with_index do |name, index|
+    katz_deli.each do |name|
       puts "The line is currently: #{name}"
     end
 
