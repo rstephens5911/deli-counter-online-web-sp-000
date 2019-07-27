@@ -3,7 +3,6 @@ def line(katz_deli)
   if katz_deli.size > 0
     # katz_deli.each_with_index do |name, index|
       puts "The line is currently:  #{katz_deli.map_with_index{(name, index)}}. "
-    end
 
     else
       puts "The line is currently empty."
