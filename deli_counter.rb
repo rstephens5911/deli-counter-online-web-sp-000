@@ -1,4 +1,4 @@
-def line(array)
+def line(katz_deli)
   katz_deli = []
   if katz_deli.size > 0
     katz_deli.each do |name|
