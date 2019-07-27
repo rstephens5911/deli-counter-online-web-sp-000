@@ -2,8 +2,8 @@ def line(katz_deli)
   # katz_deli = []
   if katz_deli.size > 0
     katz_deli.each_with_index do |name, index|
-      print "The line is currently: "
-      print " #{name}, #{index + 1}"
+      puts "The line is currently: "
+      puts " #{name}, #{index + 1}"
     end
 
     else
