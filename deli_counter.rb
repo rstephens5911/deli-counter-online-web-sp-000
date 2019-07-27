@@ -2,8 +2,14 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index do |name, index|
-      puts "The line is currently: #{index.to_i + 1}. #{name} "
+  elsif katz_deli.size > 0
+    i = 0
+    str = "The line is currently: "
+    while i < katz_deli.size
+      str << "#{katz_deli[i]}, "
+      i += 1
+    end
+  end
 
 
     end
