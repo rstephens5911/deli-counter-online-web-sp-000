@@ -3,7 +3,7 @@ katz_deli = []
 def line(array)
   if katz_deli.size == 0
     puts "The line is currently empty."
-  elsif katz_deli.size > 0
+  else 
     katz_deli.each do |line|
     puts "The line is currently: #{line}"
   end
