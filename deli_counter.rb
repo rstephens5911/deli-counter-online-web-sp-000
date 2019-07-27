@@ -6,10 +6,10 @@ def line(katz_deli)
     i = 0
     str = "The line is currently: "
     while i < katz_deli.size - 1
-      str << "#{i + 1}. #{katz_deli[i]}"
+      str << "#{i + 1}. #{katz_deli[i]} "
       i += 1
     end
-    str << "#{katz_deli.size + 1}. #{katz_deli[-1]}"
+    str << "#{katz_deli.size}. #{katz_deli[-1]}"
     puts str
   end
 end
