@@ -10,6 +10,6 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
+#  katz_deli << name
+# puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
 end
