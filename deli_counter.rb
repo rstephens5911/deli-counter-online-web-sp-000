@@ -10,5 +10,6 @@ def line(katz_deli)
       i += 1
     end
     str << "#{katz_deli.size + 1}. #{katz_deli[-1]}"
+    put str
   end
 end
