@@ -6,7 +6,7 @@ def line(katz_deli)
     i = 0
     str = "The line is currently: "
     while i < katz_deli.size
-      str << "#{katz_deli[i]}, "
+      str << "#{i}. #{katz_deli[i]}, "
       i += 1
     end
     puts str
