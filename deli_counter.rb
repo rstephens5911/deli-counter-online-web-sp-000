@@ -4,7 +4,8 @@ def line(array)
   if katz_deli.size == 0
     puts "The line is currently empty."
   elsif katz_deli.size > 0
-    take_a_number(array, name)
+    katz_deli.each do |line|
+    puts "The line is currently: #{line}"
   end
 end
 
